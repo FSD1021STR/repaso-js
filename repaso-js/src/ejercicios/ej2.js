@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+//Que objeto necesito para cada deporte?
 const Ej2 = (props) => {
     const nadar = "nadar";
     const correr = "correr";
@@ -8,13 +10,9 @@ const Ej2 = (props) => {
     const deporte = correr;
 
     const objeto = () => {
-        if(deporte === nadar) {
-            return "bañador";
-        } else if (deporte === correr) {
-            return "bambas";
-        } else {
-            return "bicicleta";
-        }
+        //si el deporte es nadar, necesitare el bañador
+        //si es correr, bambas
+        //o sino la bicicleta
     }
 
     return (

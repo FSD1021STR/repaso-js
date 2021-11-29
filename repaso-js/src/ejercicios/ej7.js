@@ -5,7 +5,7 @@ const Ej7 = (props) => {
 
     return (
         <div>
-          Hay algun numero superior a 30?:  {numeros.some(numeros => numeros > 30).toString()}
+          Hay algun numero superior a 30?:  {/*numeros.???(numeros => ???).toString()*/}
         </div>
     )
 }

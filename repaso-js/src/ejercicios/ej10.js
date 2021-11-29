@@ -1,5 +1,7 @@
 import React from "react";
 
+// Filtra el array de amigos por una edad en especifico, luego muestra el resultado siguiendo este estilo: pepe - 32
+
 const Ej10 = (props) => {
 
   const amigos = [
@@ -33,7 +35,7 @@ const Ej10 = (props) => {
     <div>
       <h1>Mis amigos mayores de 42 años</h1>
       <p>
-        {amigos.filter(amigo => amigo.edad > 42).map(amigo => <p>{amigo.nombre}-{amigo.edad}</p>)}
+        {/*amigos.???(amigo => ???).???(amigo => <p>{amigo.???}-{amigo.???}</p>)*/}
       </p>
     </div>
   );

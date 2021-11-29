@@ -1,5 +1,7 @@
 import React from "react";
 
+//Muestra el nombre de mis amigos
+
 const Ej9 = (props) => {
 
   const amigos = [
@@ -33,11 +35,11 @@ const Ej9 = (props) => {
     <div>
       <h1>Mis amigos son</h1>
       <p>
-        {amigos.map(amigo => (
+        {/*amigos.???(amigo => (
           <p>
-            {amigo.nombre}
+            {amigo.???}
           </p>
-        ))}
+        ))*/}
       </p>
     </div>
   );

@@ -5,7 +5,7 @@ const Ej6 = (props) => {
 
     return (
         <div>
-          Esta Luis entre mis amigos?:  {amigos.some(amigo => amigo === "luis").toString()}
+          Esta Luis entre mis amigos?:  {/*amigos.???(amigo => ???).toString()*/}
         </div>
     )
 }

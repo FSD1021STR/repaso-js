@@ -5,7 +5,7 @@ const Ej4 = (props) => {
 
     return (
         <div>
-           Los numeros superiores a 5 son: {numeros.filter(numero => numero > 5).toString()}
+           Los numeros superiores a 5 son: {/*numeros. ?? (numero => ??).toString()*/}
         </div>
     )
 }

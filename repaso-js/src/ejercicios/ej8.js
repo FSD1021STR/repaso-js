@@ -1,5 +1,5 @@
 import React from "react";
-
+//Muestra toda la lista de equipos y la posicion que ocupan en el array
 const Ej8 = (props) => {
   const equipos = ["Barça", "Sevilla", "Betis", "Cadiz", "Alcorcon", "Madrid"];
 
@@ -7,11 +7,11 @@ const Ej8 = (props) => {
     <div>
       <h1>Lista de equipos</h1>
       <p>
-        {equipos.map((equipo, indice) => (
+        {/*equipos.???((equipo, posicion) => (
           <p>
-            {indice}.{equipo}
+            {posicion}.{equipo}
           </p>
-        ))}
+        ))*/}
       </p>
     </div>
   );
