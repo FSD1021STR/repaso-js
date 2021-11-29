@@ -1,11 +1,12 @@
 import React from 'react';
 
+//Selecciona mis mejores amigos "pedro" y "luis"
 const Ej5 = (props) => {
-    const elementos = ["hipotenusa", "cateto", "pitagoras", "x", "y", "z"];
+    const amigos = ["pepe", "paco", "pedro", "luis", "jesus", "jose"];
 
     return (
         <div>
-          Encuentra la x:  {/*elementos. ?? (elemento => ?? )*/}
+            {/*amigos.???(2,4).join(", ")*/}
         </div>
     )
 }

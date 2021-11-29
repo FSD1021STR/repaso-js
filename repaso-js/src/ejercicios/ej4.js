@@ -1,11 +1,11 @@
 import React from 'react';
-
+//elimina a los nazis del array
 const Ej4 = (props) => {
-    const numeros = [1,2,3,4,5,6,7,8,9,10];
-
+    const guerraMundial = ["aliados", "comunistas", "nazis"];
+    //guerraMundial.???
     return (
         <div>
-           Los numeros superiores a 5 son: {/*numeros. ?? (numero => ??).toString()*/}
+            {guerraMundial.join(", ")}
         </div>
     )
 }

@@ -1,11 +1,11 @@
 import React from 'react';
-
+//Muestra los elementos del array
 const Ej7 = (props) => {
-    const numeros = [20,50,30,10,80,40];
+    const amigos = ["pepe", "paco", "pedro", "luis", "jesus", "jose"];
 
     return (
         <div>
-          Hay algun numero superior a 30?:  {/*numeros.???(numeros => ???).toString()*/}
+            {/*amigos.???(amigo => <p>Mi amigo es: {???}<br/></p>)*/}
         </div>
     )
 }
