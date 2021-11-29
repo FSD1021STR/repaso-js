@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Ej10 from './ejercicios/ej10';
+import Ej5 from './ejercicios/ej5';
 
 function App() {
   return (
     <div >
-      <Ej10 />
+      <Ej5 />
     </div>
   );
 }

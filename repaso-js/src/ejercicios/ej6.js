@@ -1,11 +1,12 @@
 import React from 'react';
 
+//Añade a "jaime" a mis amigos
 const Ej6 = (props) => {
     const amigos = ["pepe", "paco", "pedro", "luis", "jesus", "jose"];
 
     return (
         <div>
-          Esta Luis entre mis amigos?:  {amigos.some(amigo => amigo === "luis").toString()}
+            {amigos.push("jaime")}
         </div>
     )
 }
