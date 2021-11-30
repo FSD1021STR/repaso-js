@@ -6,8 +6,13 @@ const Ej1 = (props) => {
 
     const semaforo = luzVerde;
 
-    const puedoPasar = () => {
-        //si la luz es roja, no puedo pasar, si es verde si
+    const puedoPasar = () => { 
+        if (semaforo === luzRoja) {
+            return 'Alto';
+        } 
+        else if (semaforo === luzVerde) {
+            return 'Corre'
+        }
     }
 
     return (
