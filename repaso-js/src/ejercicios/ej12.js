@@ -8,11 +8,11 @@ const Ej12 = (props) => {
     <div>
       <h1>Lista de equipos</h1>
       <p>
-        {/*equipos.???((???, ???) => (
+        {equipos.map((posicion, equipo) => (
           <p>
-            {???}.{???}
+            {equipo}. {posicion}
           </p>
-        ))*/}
+        ))}
       </p>
     </div>
   );
