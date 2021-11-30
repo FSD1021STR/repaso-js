@@ -10,6 +10,15 @@ const Ej2 = (props) => {
     const deporte = correr;
 
     const objeto = () => {
+        if (deporte===nadar) {
+            return 'bañador'
+        }
+        else if (deporte===correr){
+            return 'bambas'
+        }
+        else {
+            return 'bici'
+        }
         //si el deporte es nadar, necesitare el bañador
         //si es correr, bambas
         //o sino la bicicleta
