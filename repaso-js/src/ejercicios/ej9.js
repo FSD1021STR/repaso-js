@@ -6,7 +6,7 @@ const Ej9 = (props) => {
 
     return (
         <div>
-          Encuentra la x:  {/*elementos.???(elemento => ???? )*/}
+          Encuentra la x:  {elementos.find(elemento => elemento === 'x' )}
         </div>
     )
 }
