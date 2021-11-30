@@ -5,7 +5,7 @@ const Ej7 = (props) => {
 
     return (
         <div>
-            {/*amigos.???(amigo => <p>Mi amigo es: {???}<br/></p>)*/}
+            {amigos.map(amigo => <p>Mi amigo es: {amigo}<br/></p>)}
         </div>
     )
 }
