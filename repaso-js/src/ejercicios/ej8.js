@@ -5,7 +5,7 @@ const Ej8 = (props) => {
 
     return (
         <div>
-           Los numeros superiores a 5 son: {/*numeros.???(numero => ???).join(",")*/}
+           Los numeros superiores a 5 son: {numeros.filter(numero => numero > 5).join(", ")}
         </div>
     )
 }
