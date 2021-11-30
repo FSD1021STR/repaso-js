@@ -7,7 +7,7 @@ const Ej10 = (props) => {
 
     return (
         <div>
-          Esta Luis entre mis amigos?:  {/*amigos.???(amigo => ????).toString()*/}
+          Esta Luis entre mis amigos?:  {amigos.some(amigo => amigo === 'luis').toString()}
         </div>
     )
 }
