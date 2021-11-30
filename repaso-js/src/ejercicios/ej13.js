@@ -34,11 +34,11 @@ const Ej13 = (props) => {
     <div>
       <h1>Mis amigos son</h1>
       <p>
-        {/*amigos.???(amigo => (
+        {amigos.map(amigo => (
           <p>
-            {amigo.???}
+            {amigo.nombre}
           </p>
-        ))*/}
+        ))}
       </p>
     </div>
   );
