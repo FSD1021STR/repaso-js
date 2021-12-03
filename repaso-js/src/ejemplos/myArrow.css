@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-image: url("https://fondosmil.com/fondo/52705.jpg");
+  background-size: cover;
+}
+
+.arrow1 {
+  background-color: rgba(165, 167, 73, 0.705);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.arrow2 {
+  background-color: rgba(214, 86, 86, 0.719);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
