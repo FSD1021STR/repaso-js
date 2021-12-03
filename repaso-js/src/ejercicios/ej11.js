@@ -7,7 +7,7 @@ const Ej11 = (props) => {
       <div>
         {/* Hay algun numero superior a 30?:  numeros.????(numeros => ????).toString() */}
         Hay algun numero superior a 30 ?:{" "}
-        {numeros.filter((numero) => numero > 30).join(", ")}
+        {numeros.some((numero) => numero > 30).toString()}
         {/* .toString()} */}
       </div>
     );
