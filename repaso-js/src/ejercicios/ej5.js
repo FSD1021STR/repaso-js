@@ -5,10 +5,11 @@ const Ej5 = (props) => {
     const amigos = ["pepe", "paco", "pedro", "luis", "jesus", "jose"];
 
     return (
-        <div>
-            {amigos.slice(2,4).join(", ")}
-        </div>
-    )
+      <div>
+        {/*amigos.???(2,4).join(", ")*/}
+        {amigos.slice(2, 4).join(", ")}
+      </div>
+    );
 }
 
 export default Ej5;

@@ -1,7 +1,7 @@
 import React from "react";
+//Muestra solo el nombre de cada uno de los amigos
 
 const Ej13 = (props) => {
-
   const amigos = [
     {
       nombre: "pepe",
@@ -29,14 +29,19 @@ const Ej13 = (props) => {
     },
   ];
 
+  // {
+  //   /*amigos.???(amigo => (
+  //   <p>
+  //     {amigo.???}
+  //   </p>
+  // ))*/
+  // }
   return (
     <div>
       <h1>Mis amigos son</h1>
       <p>
-        {amigos.map(amigo => (
-          <p>
-            {amigo.nombre}
-          </p>
+        {amigos.map((amigo) => (
+          <p>{amigo.nombre}</p>
         ))}
       </p>
     </div>
