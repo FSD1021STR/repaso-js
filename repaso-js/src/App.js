@@ -10,7 +10,7 @@ import { MyArrow } from './ejemplos/myArrow';
 import { MyArrow2 } from './ejemplos/myArrow';
 function App() {
   return (
-    <div >
+    <div className="app" >
       <MyArrow/>
       <MyArrow2/>
     </div>

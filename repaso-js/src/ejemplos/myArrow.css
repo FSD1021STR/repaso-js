@@ -1,12 +1,10 @@
 .container {
   display: flex;
   justify-content: center;
-  background-image: url("https://fondosmil.com/fondo/52705.jpg");
-  background-size: cover;
 }
 
 .arrow1 {
-  background-color: rgba(165, 167, 73, 0.705);
+  background-color: rgba(165, 167, 73, 0.801);
   width: 300px;
   height: 300px;
   display: flex;
@@ -14,10 +12,17 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  box-shadow: 5px, 5px, 5px, salmon;
+  border: solid black 0px;
+  border-radius: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
 }
 
 .arrow2 {
-  background-color: rgba(214, 86, 86, 0.719);
+  background-color: rgba(214, 86, 86, 0.801);
   width: 300px;
   height: 300px;
   display: flex;
@@ -25,4 +30,11 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  box-shadow: 5px, 5px, 5px, salmon;
+  border: solid black 0px;
+  border-radius: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
 }
