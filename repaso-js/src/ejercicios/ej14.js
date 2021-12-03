@@ -36,7 +36,13 @@ const Ej14 = (props) => {
       <h1>Mis amigos mayores de 42 años</h1>
       <p>
         {/*amigos.???(amigo => ???).???(amigo => <p>{amigo.???}-{amigo.???}</p>)*/}
-         {/* mensaje para probar commit */}
+        {amigos
+          .filter((amigo) => amigo.edad > 42)
+          .map((amigo) => (
+            <p>
+              {amigo.nombre} - {amigo.edad}
+            </p>
+          ))}
       </p>
     </div>
   );
