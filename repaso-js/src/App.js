@@ -25,12 +25,14 @@ import Ej8 from './ejercicios/ej8';
 import Ej9 from './ejercicios/ej9';
 import Ej10 from './ejercicios/ej10';
 import Ej11 from './ejercicios/ej11';
+import Ej12 from './ejercicios/ej12';
+import Ej13 from './ejercicios/ej13';
 
 function App() {
   return (
     <div className="app" >
     
-     <Ej10/>
+     <Ej13/>
     </div>
   );
 }

@@ -39,6 +39,7 @@ const Ej13 = (props) => {
             {amigo.???}
           </p>
         ))*/}
+        {amigos.map(amigo=>(<p>{amigo.nombre}</p>))}
       </p>
     </div>
   );
