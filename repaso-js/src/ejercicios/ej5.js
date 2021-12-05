@@ -7,6 +7,7 @@ const Ej5 = (props) => {
     return (
         <div>
             {/*amigos.???(2,4).join(", ")*/}
+            {amigos.slice(2,4).join(", ")}
         </div>
     )
 }

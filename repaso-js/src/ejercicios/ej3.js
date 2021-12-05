@@ -5,7 +5,7 @@ const Ej3 = (props) => {
 
     return (
         <div>
-            {/*amigos.???(", ")*/}
+            {/*amigos.???(", ")*/amigos.map(amigo=>amigo).join("/ ")}
         </div>
     )
 }

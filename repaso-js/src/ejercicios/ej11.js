@@ -6,6 +6,9 @@ const Ej11 = (props) => {
     return (
         <div>
           Hay algun numero superior a 30?:  {/*numeros.????(numeros => ????).toString()*/}
+          <div>
+            Hay algun numero +30: {numeros.some(numero=>numero>30).toString()}
+          </div>
         </div>
     )
 }

@@ -3,6 +3,7 @@ import React from 'react';
 const Ej4 = (props) => {
     const guerraMundial = ["aliados", "comunistas", "nazis"];
     //guerraMundial.???
+    guerraMundial.pop()
     return (
         <div>
             {guerraMundial.join(", ")}
